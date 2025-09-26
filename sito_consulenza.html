@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Consulenza Estrusione & Stampa Film — Antonio Vitrone</title>
+  <meta name="description" content="Consulenza tecnica su estrusione e stampa di film biodegradabili e plastici. Ottimizzazione processi, formazione e audit tecnico." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{--brand-600:#14325A;--brand-400:#2E4A74;--accent:#1F3B73}
+    .container-max{max-width:1100px}
+  </style>
+</head>
+<body class="bg-white text-gray-800 antialiased">
+  <header class="sticky top-0 bg-white/80 backdrop-blur z-30 shadow-sm">
+    <div class="container-max mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-md bg-gradient-to-br from-sky-700 to-indigo-600 flex items-center justify-center text-white font-bold">AV</div>
+        <div>
+          <h1 class="text-base font-semibold" style="color:var(--brand-600)">Antonio Vitrone</h1>
+          <p class="text-sm text-gray-500">Consulente tecnico — estrusione & stampa film</p>
+        </div>
+      </div>
+      <nav class="hidden md:flex gap-6 items-center text-sm">
+        <a href="#servizi" class="hover:text-sky-700">Servizi</a>
+        <a href="#contatti" class="text-white bg-sky-700 px-4 py-2 rounded-md">Contatti</a>
+      </nav>
+      <button class="md:hidden p-2 rounded-md border" aria-label="menu">☰</button>
+    </div>
+  </header>
+
+  <section class="bg-gradient-to-b from-slate-50 to-white py-16">
+    <div class="container-max mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-extrabold leading-tight" style="color:var(--brand-600)">Consulenza tecnica per estrusione & stampa di film</h2>
+        <p class="mt-4 text-gray-600">Specialista in film plastici e biodegradabili. Ottimizzazione impianti, transizione a materiali compostabili, formazione e audit tecnico.</p>
+        <div class="mt-6 flex gap-4">
+          <a href="#contatti" class="inline-block bg-sky-700 text-white px-5 py-3 rounded-md shadow">Richiedi consulenza</a>
+          <a href="#servizi" class="inline-block px-5 py-3 rounded-md border">Scopri i servizi</a>
+        </div>
+        <div class="mt-6 text-sm text-gray-500">📞 <a href="tel:+393382025702" class="underline">+39 338 202 5702</a> • ✉️ <a href="mailto:vitrone.antonio.cns@gmail.com" class="underline">vitrone.antonio.cns@gmail.com</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servizi" class="py-12">
+    <div class="container-max mx-auto px-6">
+      <h3 class="text-xl font-semibold" style="color:var(--brand-600)">Servizi</h3>
+      <p class="text-gray-600 mt-2">Soluzioni su misura per estrusione, stampa e materiali biodegradabili.</p>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <article class="p-5 border rounded-lg">
+          <h4 class="font-semibold">Ottimizzazione estrusione</h4>
+          <p class="text-sm text-gray-600 mt-2">Settaggio parametri, scelta polimeri, riduzione scarti e incremento rese produttive.</p>
+        </article>
+        <article class="p-5 border rounded-lg">
+          <h4 class="font-semibold">Stampa 6 colori & finiture</h4>
+          <p class="text-sm text-gray-600 mt-2">Set-up flexo/rotocalco, gestione inchiostri, qualità cromatica e controllo registro.</p>
+        </article>
+        <article class="p-5 border rounded-lg">
+          <h4 class="font-semibold">Transizione a film biodegradabili</h4>
+          <p class="text-sm text-gray-600 mt-2">Selezione materiali compostabili, adeguamento impianti e verifica norme di conformità.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contatti" class="py-12 bg-slate-50">
+    <div class="container-max mx-auto px-6">
+      <h3 class="text-xl font-semibold" style="color:var(--brand-600)">Contatti</h3>
+      <p class="text-gray-700 mt-4">📞 <a href="tel:+393382025702" class="underline text-sky-700">+39 338 202 5702</a></p>
+      <p class="text-gray-700">✉️ <a href="mailto:vitrone.antonio.cns@gmail.com" class="underline text-sky-700">vitrone.antonio.cns@gmail.com</a></p>
+      <p class="text-gray-700">📍 Milano, Italia</p>
+    </div>
+  </section>
+
+  <footer class="py-6 text-sm text-center text-gray-500">
+    © <span id="year"></span> Antonio Vitrone — Consulenza tecnica.
+  </footer>
+
+  <script>
+    document.getElementById('year').innerText = new Date().getFullYear();
+  </script>
+</body>
+</html>
